@@ -1,0 +1,58 @@
+:root, ::before, ::after {
+    --toolbar-bg-color: #f5f7fa;
+    --tag-item-bg-color: var(--el-bg-color);
+    --tag-item-bg-hover-color: #dee1e6;
+    --tag-item-bg-active-color: #e8f4ff;
+    --tag-item-text-color: var(--el-text-color-regular);
+    --tag-item-active-text-color: var(--el-color-primary);
+
+    --tag-item-gap-color: rgb(0 0 0 / 25%);
+
+}
+
+
+html.dark,
+html.dark ::before,
+html.dark ::after {
+    --toolbar-bg-color: #282d37;
+
+    --tag-item-bg-hover-color: #3a4957e0;
+    --tag-item-bg-active-color: #2d4153;
+    --tag-item-gap-color: rgb(255 255 255 / 25%);
+
+}
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+}
+
+#app {
+    height: 100dvh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+}
+
+
+.el-form-item__label {
+    color: #606266;
+    font-weight: bold;
+}
+
+.el-button.is-plain.is-text + .el-button.is-plain.is-text {
+    margin-left: 0;
+}
+
+.el-popper.form-item-tooltip code {
+    background-color: #f5f7fa;
+}
+
+.el-tree-node__content>label.el-checkbox {
+    height: 100%;
+}
