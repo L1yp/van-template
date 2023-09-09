@@ -38,3 +38,5 @@ coverage
 
 
 .fleet
+
+pnpm-lock.yaml

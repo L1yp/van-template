@@ -36,7 +36,7 @@ import { ElTree } from 'element-plus'
 import VDialog from "@/components/dialog/VDialog.vue";
 import { computed, ref } from "vue";
 import { getDeviceType, getTreeItemPath } from "@/utils/common";
-import { CheckedInfo } from "element-plus/lib/components/tree-v2/src/types";
+import { CheckedInfo } from "element-plus/es/components/tree-v2/src/types";
 import { flatternTree, getSubTree } from "@/utils/common/tree";
 import type { TreeKey } from "element-plus/es/components/tree/src/tree.type";
 import { MenuOutputDTO, MenuType } from "@/api/sys/menu/types";
